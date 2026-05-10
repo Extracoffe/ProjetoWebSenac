@@ -174,3 +174,12 @@ h2 {
   cursor: pointer;
   accent-color: var(--primary); /* Muda a cor da "bolinha" do slider */
 }
+
+.footer-social a {
+  font-size: 24px; /* Aumenta um pouco o tamanho dos ícones */
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: var(--primary) !important; /* Faz brilhar com o seu ciano */
+}
