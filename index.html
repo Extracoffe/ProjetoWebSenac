@@ -81,6 +81,29 @@
         </form>
       </div>
     </section>
+    <section class="audio-player">
+      <h3>Player Paranormal</h3>
+      <audio id="bg-music" loop>
+        <source src="musicas/11 Tema de Verissimo.mp3" type="audio/mpeg" />
+        Seu navegador não suporta áudio.
+      </audio>
+
+      <div class="controls">
+        <button id="play-pause"><i class="bi bi-play-fill"></i> Play</button>
+
+        <div class="volume-container">
+          <i class="bi bi-volume-up"></i>
+          <input
+            type="range"
+            id="volume-slider"
+            min="0"
+            max="1"
+            step="0.01"
+            value="0.5"
+          />
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
   <footer class="footer">
