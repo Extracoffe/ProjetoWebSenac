@@ -15,6 +15,16 @@
     <link rek="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <ul class="header-menu">
+        <li><a href="index.html" class="item-menu">Home</a></li>
+        <li>
+          <a href="subpaginas/elementos.html" class="item-menu">Elementos</a>
+        </li>
+        <li><a href="subpaginas/personagens.html">Personagens</a></li>
+        <li><a href="subpaginas/suporte.html">Suporte</a></li>
+      </ul>
+    </nav>
     <header class="header-page">
       <div class="container-header-container">
         <h1>PARAWIKI<i class="bi bi-controller"></i></h1>
@@ -35,6 +45,66 @@
         </nav>
       </div>
     </header>
+    <section class="hero">
+      <div class="container">
+        <h2>
+          A maior <span style="color: var(--primary)">wiki</span> de ordem
+          paranormal
+        </h2>
+        <p>A plataforma feita para descobrir, aprender e apoiar o projeto.</p>
+      </div>
+      <video class="video" autoplay muted loop playsinline>
+        <source src="" type="video/mp4" />
+      </video>
+    </section>
+    <section class="games" id="games">
+      <div class="container">
+        <h2 style="margin-bottom: 30px">Notícias em alta do fandom</h2>
+        <div class="grid-cards">
+          <a href="#" class="card">
+            <img src="" alt="" />
+            <div class="card-game-info">
+              <h3>Insira algo aqui</h3>
+              <p>Faz algo aí parça</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="container" style="text-align: center; padding: 80px 0">
+        <h2>Fique por dentro das novidades</h2>
+        <form class="newsletter-form" id="form-newsletter">
+          <input
+            type="email"
+            id="email-input"
+            placeholder="Seu melhor e-mail"
+            required
+          />
+          <button type="submit">Inscrever-se</button>
+        </form>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
+  <footer class="footer">
+    <div
+      class="container"
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+        border-top: 1px solid #30363d;
+      "
+    >
+      <div class="footer-brand">
+        <h2>Outra Wiki de Ordem Paranormal</h2>
+        <p>Lembre-se: Saber tudo é perder tudo.</p>
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <p><i class="bi bi-instagram"></i> <i class="bi-bi-discord"></i></p>
+      </div>
+    </div>
+  </footer>
 </html>

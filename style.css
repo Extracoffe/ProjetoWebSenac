@@ -49,3 +49,84 @@ body {
 .item-menu:hover {
   color: var(--primary);
 }
+
+.hero0 {
+  height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #161b22;
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.card:hover img {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.card-game-info {
+  padding: 20px;
+  text-align: center;
+  color: var(--light-text);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+  margin: 40px auto 0;
+}
+
+.newsletter-form input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #30363d;
+  color: white;
+}
+
+.newsletter-form button {
+  padding: 15px 30px;
+  background: var(--primary);
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}

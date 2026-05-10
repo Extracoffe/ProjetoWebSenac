@@ -8,7 +8,9 @@
   <body>
     <nav>
       <ul class="header-menu">
-        <li><a href="\index.html" class="item-menu">Home</a></li>
+        <li>
+          <a href="\index.html" class="item-menu">Home</a>
+        </li>
         <li>
           <a href="elementos.html" class="item-menu">Elementos</a>
         </li>
@@ -16,5 +18,15 @@
         <li><a href="suporte.html">Suporte</a></li>
       </ul>
     </nav>
+    <form class="contato-form">
+      <label>Nome Completo</label>
+      <input type="text" placeholder="Ex: João" required />
+
+      <label>Sua Mensagem</label>
+      <textarea placeholder="Como ajudamos?" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <script src="script.js"></script>
   </body>
 </html>
