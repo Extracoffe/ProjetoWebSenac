@@ -7,7 +7,7 @@ formNewsletter.addEventListener("submit", function (event) {
   const email = emailInput.value;
 
   alert(
-    "Obrigado por se inscrever, senhor veríssimo! \nNovidades serão enviadas para: ${email}",
+    `Obrigado por se inscrever, senhor veríssimo! \nNovidades serão enviadas para: ${email}`,
   );
   emailInput.value = "";
 });
